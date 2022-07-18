@@ -1,3 +1,5 @@
 <div>
-    {{-- If you look to others for fulfillment, you will never truly be fulfilled. --}}
+    <span>{{ $count }}</span>
+    <button wire:click="decrement">-</button>
+    <button wire:click="increment">+</button>
 </div>
